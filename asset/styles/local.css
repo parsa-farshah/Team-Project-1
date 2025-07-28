@@ -1,0 +1,322 @@
+@media screen and (max-width: 576px) {
+  #head-top {
+    padding: 0px 0%;
+  }
+  #head-top > .row {
+    /* /////////////////////////////// end first row/ //////////////////// */
+  }
+  #head-top > .row:nth-of-type(1) {
+    height: 80px;
+    border-radius: 0px;
+  }
+  #head-top > .row:nth-of-type(2) {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-inline: 5%;
+  }
+  #head-top > .row:nth-of-type(2) > div:nth-of-type(1) > .row:nth-of-type(1) > h2 {
+    text-align: center;
+  }
+  #head-top > .row:nth-of-type(2) > div:nth-of-type(1) > .row:nth-of-type(1) > h1 {
+    font-size: 45px;
+    text-align: center;
+  }
+  #head-top > .row:nth-of-type(2) > div:nth-of-type(1) > .row:nth-of-type(2) > p {
+    font-size: 14px;
+    text-align: center;
+  }
+  #head-top > .row:nth-of-type(2) > div:nth-of-type(1) > .row:nth-of-type(3) {
+    justify-content: center;
+  }
+  #head-top > .row:nth-of-type(2) > div:nth-of-type(2) {
+    margin-top: 50px;
+  }
+  #head-top > .row:nth-of-type(2) > div:nth-of-type(2) > figure > img {
+    width: 100%;
+  }
+  main #firstSection {
+    padding: 50px 0px 10px;
+  }
+  main #firstSection > div {
+    width: 95%;
+    /* - --------------- first row ------------------- */
+    /*------------------------------ second row------------------------------  */
+  }
+  main #firstSection > div:nth-of-type(1) {
+    padding-bottom: 50px;
+    /* ---------------- card box ------------------- */
+    /* ------------------------------- end first row ------------------- */
+  }
+  main #firstSection > div:nth-of-type(1) > div {
+    width: 100%;
+    flex-wrap: wrap;
+    /*------------ 6cards---------------- */
+  }
+  main #firstSection > div:nth-of-type(1) > div > div {
+    width: 100%;
+    margin-bottom: 50px;
+    /* ---------------- end card box ------------------- */
+  }
+  main #firstSection > div:nth-of-type(2) {
+    /*------------------ collectionsCardBox-------------- */
+  }
+  main #firstSection > div:nth-of-type(2) > .collectionsCardBox {
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 100px;
+    /*-------------- cards css--------------- */
+  }
+  main #firstSection > div:nth-of-type(2) > .collectionsCardBox > div {
+    margin-bottom: 60px;
+  }
+}
+@media screen and (min-width: 576px) {
+  #head-top {
+    padding: 0px 0%;
+  }
+  #head-top > .row {
+    /* /////////////////////////////// end first row/ //////////////////// */
+  }
+  #head-top > .row:nth-of-type(1) {
+    height: 80px;
+    border-radius: 0px;
+  }
+  #head-top > .row:nth-of-type(2) {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-inline: 5%;
+  }
+  #head-top > .row:nth-of-type(2) > div:nth-of-type(1) > .row:nth-of-type(1) > h2 {
+    text-align: center;
+  }
+  #head-top > .row:nth-of-type(2) > div:nth-of-type(1) > .row:nth-of-type(1) > h1 {
+    font-size: 45px;
+    text-align: center;
+  }
+  #head-top > .row:nth-of-type(2) > div:nth-of-type(1) > .row:nth-of-type(2) > p {
+    font-size: 14px;
+    text-align: center;
+  }
+  #head-top > .row:nth-of-type(2) > div:nth-of-type(1) > .row:nth-of-type(3) {
+    justify-content: center;
+  }
+  #head-top > .row:nth-of-type(2) > div:nth-of-type(2) {
+    margin-top: 50px;
+  }
+  #head-top > .row:nth-of-type(2) > div:nth-of-type(2) > figure > img {
+    width: 70%;
+  }
+  main #firstSection {
+    padding: 50px 0px 10px;
+  }
+  main #firstSection > div {
+    width: 95%;
+    /* - --------------- first row ------------------- */
+    /* ------------------------------- end first row ------------------- */
+    /*------------------------------ second row------------------------------  */
+  }
+  main #firstSection > div:nth-of-type(1) {
+    padding-bottom: 50px;
+    /* ---------------- card box ------------------- */
+  }
+  main #firstSection > div:nth-of-type(1) > div {
+    width: 100%;
+    flex-wrap: wrap;
+    /*------------ 6cards---------------- */
+  }
+  main #firstSection > div:nth-of-type(1) > div > div {
+    width: 100%;
+    margin-bottom: 50px;
+    /* ---------------- end card box ------------------- */
+  }
+  main #firstSection > div:nth-of-type(2) {
+    /*------------------ collectionsCardBox-------------- */
+  }
+  main #firstSection > div:nth-of-type(2) > .collectionsCardBox {
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-bottom: 100px;
+    /*-------------- cards css--------------- */
+  }
+  main #firstSection > div:nth-of-type(2) > .collectionsCardBox > div {
+    margin-bottom: 60px;
+  }
+}
+@media screen and (min-width: 992px) {
+  #head-top {
+    padding: 20px 5%;
+  }
+  #head-top > .row {
+    /* /////////////////////////////// end first row/ //////////////////// */
+  }
+  #head-top > .row:nth-of-type(1) {
+    height: 80px;
+    border-radius: 200px;
+  }
+  #head-top > .row:nth-of-type(1) > div:first-child {
+    width: 30%;
+  }
+  #head-top > .row:nth-of-type(1) > div:last-child {
+    width: 70%;
+  }
+  #head-top > .row:nth-of-type(2) {
+    padding-top: 100px;
+    padding-bottom: 50px;
+    padding-inline: 0%;
+  }
+  #head-top > .row:nth-of-type(2) > div:nth-of-type(1) > .row:nth-of-type(1) > h2 {
+    text-align: start;
+  }
+  #head-top > .row:nth-of-type(2) > div:nth-of-type(1) > .row:nth-of-type(1) > h1 {
+    font-size: 45px;
+    text-align: start;
+  }
+  #head-top > .row:nth-of-type(2) > div:nth-of-type(1) > .row:nth-of-type(2) > p {
+    font-size: 14px;
+    text-align: start;
+  }
+  #head-top > .row:nth-of-type(2) > div:nth-of-type(1) > .row:nth-of-type(3) {
+    justify-content: start;
+  }
+  #head-top > .row:nth-of-type(2) > div:nth-of-type(2) {
+    margin-top: 0px;
+  }
+  #head-top > .row:nth-of-type(2) > div:nth-of-type(2) > figure {
+    justify-content: end !important;
+  }
+  #head-top > .row:nth-of-type(2) > div:nth-of-type(2) > figure > img {
+    width: 80%;
+  }
+  main #firstSection {
+    padding: 100px 0px 10px;
+  }
+  main #firstSection > div {
+    width: 65%;
+    /* - --------------- first row ------------------- */
+    /*------------------------------ second row------------------------------  */
+  }
+  main #firstSection > div:nth-of-type(1) {
+    padding-bottom: 50px;
+    /* ---------------- card box ------------------- */
+    /* ------------------------------- end first row ------------------- */
+  }
+  main #firstSection > div:nth-of-type(1) > div {
+    width: 100%;
+    /*------------ 6cards---------------- */
+  }
+  main #firstSection > div:nth-of-type(1) > div > div {
+    width: 195px;
+    margin-bottom: 50px;
+    /* ---------------- end card box ------------------- */
+  }
+  main #firstSection > div:nth-of-type(2) {
+    width: 100%;
+    /*------------------ collectionsCardBox-------------- */
+  }
+  main #firstSection > div:nth-of-type(2) > .collectionsCardBox {
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-bottom: 100px;
+    /*-------------- cards css--------------- */
+  }
+  main #firstSection > div:nth-of-type(2) > .collectionsCardBox > div {
+    margin-bottom: 60px;
+  }
+  main > #secondSection > div {
+    width: 95%;
+  }
+}
+@media screen and (min-width: 1200px) {
+  #head-top {
+    padding: 20px 10%;
+  }
+  #head-top > .row {
+    /* /////////////////////////////// end first row/ //////////////////// */
+  }
+  #head-top > .row:nth-of-type(1) > div:first-child {
+    width: 40%;
+  }
+  #head-top > .row:nth-of-type(1) > div:last-child {
+    width: 60%;
+  }
+  #head-top > .row:nth-of-type(2) {
+    padding-top: 150px;
+  }
+  #head-top > .row:nth-of-type(2) > div:nth-of-type(1) > .row:nth-of-type(1) > h1 {
+    font-size: 50px;
+  }
+  #head-top > .row:nth-of-type(2) > div:nth-of-type(1) > .row:nth-of-type(2) > p {
+    font-size: 15px;
+  }
+  main #firstSection > div {
+    width: 85%;
+    /* - --------------- first row ------------------- */
+  }
+  main #firstSection > div:nth-of-type(1) {
+    padding-bottom: 50px;
+    /* ---------------- card box ------------------- */
+    /* ------------------------------- end first row ------------------- */
+  }
+  main #firstSection > div:nth-of-type(1) > div {
+    width: 100%;
+    /*------------ 6cards---------------- */
+  }
+  main #firstSection > div:nth-of-type(1) > div > div {
+    width: 165px;
+    margin-bottom: 150px;
+    /* ---------------- end card box ------------------- */
+  }
+  main > #secondSection > div {
+    width: 90%;
+  }
+}
+@media screen and (min-width: 1400px) {
+  #head-top {
+    padding: 20px 15%;
+  }
+  #head-top > .row:nth-of-type(1) > div:first-child {
+    width: 50%;
+  }
+  #head-top > .row:nth-of-type(1) > div:last-child {
+    width: 50%;
+  }
+  main #secondSection > div {
+    width: 80%;
+  }
+  main #items #itemsCards {
+    width: 90%;
+  }
+  main #team > div {
+    width: 90%;
+  }
+}
+@media screen and (min-width: 1600px) {
+  main #firstSection > div {
+    width: 70%;
+    /* - --------------- first row ------------------- */
+  }
+  main #firstSection > div:nth-of-type(1) {
+    padding-bottom: 50px;
+    /* ---------------- card box ------------------- */
+    /* ------------------------------- end first row ------------------- */
+  }
+  main #firstSection > div:nth-of-type(1) > div {
+    width: 100%;
+    flex-wrap: wrap;
+    /*------------ 6cards---------------- */
+  }
+  main #firstSection > div:nth-of-type(1) > div > div {
+    width: 195px;
+    margin-bottom: 150px;
+    /* ---------------- end card box ------------------- */
+  }
+  main #secondSection > div {
+    width: 70%;
+  }
+  main #items #itemsCards {
+    width: 70%;
+  }
+  main #team > div {
+    width: 70%;
+  }
+}/*# sourceMappingURL=local.css.map */

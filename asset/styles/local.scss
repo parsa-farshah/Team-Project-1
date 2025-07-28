@@ -1,0 +1,545 @@
+//  //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// 
+@media screen and (max-width:576px) {
+
+    // ----------------------------header------------------------
+    #head-top {
+        padding: 0px 0%;
+
+        >.row {
+
+            &:nth-of-type(1) {
+                height: 80px;
+                border-radius: 0px;
+            }
+
+            /* /////////////////////////////// end first row/ //////////////////// */
+            &:nth-of-type(2) {
+                padding-top: 50px;
+                padding-bottom: 50px;
+                padding-inline: 5%;
+
+                >div {
+                    &:nth-of-type(1) {
+                        >.row {
+                            &:nth-of-type(1) {
+                                >h2 {
+                                    text-align: center;
+                                }
+
+                                >h1 {
+                                    font-size: 45px;
+                                    text-align: center;
+                                }
+
+                            }
+
+                            &:nth-of-type(2) {
+                                >p {
+                                    font-size: 14px;
+                                    text-align: center;
+                                }
+
+                            }
+
+                            &:nth-of-type(3) {
+                                justify-content: center;
+                            }
+                        }
+                    }
+
+                    &:nth-of-type(2) {
+                        margin-top: 50px;
+
+
+                        >figure {
+                            >img {
+                                width: 100%;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    // ----------------------------main------------------------
+    main {
+        #firstSection {
+            padding: 50px 0px 10px;
+
+            >div {
+                width: 95%;
+
+                /* - --------------- first row ------------------- */
+                &:nth-of-type(1) {
+                    padding-bottom: 50px;
+
+                    /* ---------------- card box ------------------- */
+                    >div {
+                        width: 100%;
+                        flex-wrap: wrap;
+
+                        /*------------ 6cards---------------- */
+                        >div {
+                            width: 100%;
+                            margin-bottom: 50px;
+
+                            /* ---------------- end card box ------------------- */
+                        }
+                    }
+
+                    /* ------------------------------- end first row ------------------- */
+                }
+
+                /*------------------------------ second row------------------------------  */
+                &:nth-of-type(2) {
+
+                    /*------------------ collectionsCardBox-------------- */
+                    >.collectionsCardBox {
+                        flex-wrap: wrap;
+                        justify-content: center;
+                        margin-bottom: 100px;
+
+                        /*-------------- cards css--------------- */
+                        >div {
+                            margin-bottom: 60px;
+                        }
+
+                    }
+                }
+            }
+        }
+    }
+}
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// 
+@media screen and (min-width:576px) {
+
+    // ----------------------------header------------------------
+    #head-top {
+        padding: 0px 0%;
+
+        >.row {
+
+            &:nth-of-type(1) {
+                height: 80px;
+                border-radius: 0px;
+            }
+
+            /* /////////////////////////////// end first row/ //////////////////// */
+            &:nth-of-type(2) {
+                padding-top: 50px;
+                padding-bottom: 50px;
+                padding-inline: 5%;
+
+                >div {
+                    &:nth-of-type(1) {
+                        >.row {
+                            &:nth-of-type(1) {
+                                >h2 {
+                                    text-align: center;
+                                }
+
+                                >h1 {
+                                    font-size: 45px;
+                                    text-align: center;
+                                }
+
+                            }
+
+                            &:nth-of-type(2) {
+                                >p {
+                                    font-size: 14px;
+                                    text-align: center;
+                                }
+
+                            }
+
+                            &:nth-of-type(3) {
+                                justify-content: center;
+                            }
+                        }
+                    }
+
+                    &:nth-of-type(2) {
+                        margin-top: 50px;
+
+                        >figure {
+                            >img {
+                                width: 70%;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    // ----------------------------main------------------------
+    main {
+        #firstSection {
+            padding: 50px 0px 10px;
+
+            >div {
+                width: 95%;
+
+                /* - --------------- first row ------------------- */
+                &:nth-of-type(1) {
+                    padding-bottom: 50px;
+
+                    /* ---------------- card box ------------------- */
+                    >div {
+                        width: 100%;
+                        flex-wrap: wrap;
+
+                        /*------------ 6cards---------------- */
+                        >div {
+                            width: 100%;
+                            margin-bottom: 50px;
+
+                            /* ---------------- end card box ------------------- */
+                        }
+                    }
+                }
+
+                /* ------------------------------- end first row ------------------- */
+                /*------------------------------ second row------------------------------  */
+                &:nth-of-type(2) {
+
+                    /*------------------ collectionsCardBox-------------- */
+                    >.collectionsCardBox {
+                        flex-wrap: wrap;
+                        justify-content: space-evenly;
+                        margin-bottom: 100px;
+
+                        /*-------------- cards css--------------- */
+                        >div {
+                            margin-bottom: 60px;
+                        }
+
+                    }
+                }
+            }
+        }
+    }
+}
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// 
+@media screen and (min-width:768px) {}
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// 
+@media screen and (min-width:992px) {
+
+    // ----------------------------header------------------------
+    #head-top {
+        padding: 20px 5%;
+
+        >.row {
+
+            &:nth-of-type(1) {
+                height: 80px;
+                border-radius: 200px;
+
+                >div {
+                    &:first-child {
+                        width: 30%;
+                    }
+
+                    &:last-child {
+                        width: 70%;
+                    }
+                }
+            }
+
+            /* /////////////////////////////// end first row/ //////////////////// */
+            &:nth-of-type(2) {
+                padding-top: 100px;
+                padding-bottom: 50px;
+                padding-inline: 0%;
+
+                >div {
+                    &:nth-of-type(1) {
+                        >.row {
+                            &:nth-of-type(1) {
+                                >h2 {
+                                    text-align: start;
+                                }
+
+                                >h1 {
+                                    font-size: 45px;
+                                    text-align: start;
+                                }
+
+                            }
+
+                            &:nth-of-type(2) {
+                                >p {
+                                    font-size: 14px;
+                                    text-align: start;
+                                }
+
+                            }
+
+                            &:nth-of-type(3) {
+                                justify-content: start;
+                            }
+                        }
+                    }
+
+                    &:nth-of-type(2) {
+                        margin-top: 0px;
+
+                        >figure {
+                            justify-content: end !important;
+
+                            >img {
+                                width: 80%;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    // ----------------------------main------------------------
+    main {
+        #firstSection {
+            padding: 100px 0px 10px;
+
+            >div {
+                width: 65%;
+
+                /* - --------------- first row ------------------- */
+                &:nth-of-type(1) {
+                    padding-bottom: 50px;
+
+                    /* ---------------- card box ------------------- */
+                    >div {
+                        width: 100%;
+
+                        /*------------ 6cards---------------- */
+                        >div {
+                            width: 195px;
+                            margin-bottom: 50px;
+
+                            /* ---------------- end card box ------------------- */
+                        }
+                    }
+
+                    /* ------------------------------- end first row ------------------- */
+                }
+
+                /*------------------------------ second row------------------------------  */
+                &:nth-of-type(2) {
+                    width: 100%;
+
+                    /*------------------ collectionsCardBox-------------- */
+                    >.collectionsCardBox {
+                        flex-wrap: wrap;
+                        justify-content: space-evenly;
+                        margin-bottom: 100px;
+
+                        /*-------------- cards css--------------- */
+                        >div {
+                            margin-bottom: 60px;
+                        }
+
+                    }
+                }
+            }
+        }
+
+        >#secondSection {
+            >div {
+                width: 95%;
+            }
+        }
+    }
+}
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// 
+@media screen and (min-width:1200px) {
+
+    // ----------------------------header------------------------
+    #head-top {
+        padding: 20px 10%;
+
+        >.row {
+
+            &:nth-of-type(1) {
+
+                >div {
+                    &:first-child {
+                        width: 40%;
+                    }
+
+                    &:last-child {
+                        width: 60%;
+                    }
+                }
+            }
+
+            /* /////////////////////////////// end first row/ //////////////////// */
+            &:nth-of-type(2) {
+                padding-top: 150px;
+
+                >div {
+                    &:nth-of-type(1) {
+                        >.row {
+                            &:nth-of-type(1) {
+
+                                >h1 {
+                                    font-size: 50px;
+                                }
+
+                            }
+
+                            &:nth-of-type(2) {
+                                >p {
+                                    font-size: 15px;
+                                }
+
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    // ----------------------------main------------------------
+    main {
+        #firstSection {
+            >div {
+                width: 85%;
+
+                /* - --------------- first row ------------------- */
+                &:nth-of-type(1) {
+                    padding-bottom: 50px;
+
+                    /* ---------------- card box ------------------- */
+                    >div {
+                        width: 100%;
+
+                        /*------------ 6cards---------------- */
+                        >div {
+                            width: 165px;
+                            margin-bottom: 150px;
+
+                            /* ---------------- end card box ------------------- */
+                        }
+                    }
+
+                    /* ------------------------------- end first row ------------------- */
+                }
+
+            }
+        }
+
+        >#secondSection {
+            >div {
+                width: 90%;
+            }
+        }
+    }
+}
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// 
+@media screen and (min-width:1400px) {
+
+    // ----------------------------header------------------------
+    #head-top {
+        padding: 20px 15%;
+
+        >.row {
+
+            &:nth-of-type(1) {
+
+                >div {
+                    &:first-child {
+                        width: 50%;
+                    }
+
+                    &:last-child {
+                        width: 50%;
+                    }
+                }
+            }
+        }
+    }
+
+    main {
+        #secondSection {
+            >div {
+                width: 80%;
+            }
+        }
+
+        #items {
+            #itemsCards {
+                width: 90%;
+            }
+        }
+
+        #team {
+            >div {
+                width: 90%;
+            }
+        }
+    }
+
+}
+
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// 
+@media screen and (min-width:1600px) {
+
+    // ----------------------------main------------------------
+    main {
+        #firstSection {
+            >div {
+                width: 70%;
+
+                /* - --------------- first row ------------------- */
+                &:nth-of-type(1) {
+                    padding-bottom: 50px;
+
+                    /* ---------------- card box ------------------- */
+                    >div {
+                        width: 100%;
+                        flex-wrap: wrap;
+
+                        /*------------ 6cards---------------- */
+                        >div {
+                            width: 195px;
+                            margin-bottom: 150px;
+
+                            /* ---------------- end card box ------------------- */
+                        }
+                    }
+
+                    /* ------------------------------- end first row ------------------- */
+                }
+            }
+        }
+
+        #secondSection {
+            >div {
+                width: 70%;
+            }
+        }
+
+        #items {
+            #itemsCards {
+                width: 70%;
+            }
+        }
+
+        #team {
+            >div {
+                width: 70%;
+            }
+        }
+    }
+}
