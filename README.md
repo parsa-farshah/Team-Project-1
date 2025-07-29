@@ -39,6 +39,16 @@ This project focuses on clean layout structure, reusable components, and mobile-
 
 ---
 
+## 👥 Collaborators
+
+Thanks to the following people who have contributed to this project:
+
+| Name            | GitHub Username     | Role              |
+|-----------------|---------------------|-------------------|
+| Parsa Deghanpour | [@parsa-farshah](https://github.com/parsa-farshah) | Creator & Developer |
+| Mehrab Pourzakaria | [@mmehrab-pz](https://github.com/mmehrab-pz) | Creator & Developer |
+| Sahar Izadi | [@saharizadi](https://github.com/saharizadi) | Creator & Developer |
+
 ## 📬 Contact Me
 
 - 📸 Instagram: [@parsa_dehghanpour_dv](https://www.instagram.com/parsa_dehghanpour_dv)
