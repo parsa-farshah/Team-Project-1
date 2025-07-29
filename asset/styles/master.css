@@ -217,7 +217,6 @@
 
 main {
   width: 100%;
-  margin-bottom: 320px;
 }
 main #firstSection {
   width: 100%;
@@ -819,7 +818,7 @@ main > #secondSection {
   padding: 100px 0px;
 }
 main > #secondSection > div {
-  width: 70%;
+  width: 90%;
   margin: 0 auto;
   /* ------------ create NFT -------------- */
   /* --------------3section------------------ */
@@ -830,7 +829,7 @@ main > #secondSection > div:nth-of-type(1) {
   justify-content: space-between;
 }
 main > #secondSection > div:nth-of-type(1) > h2 {
-  font-size: 30px;
+  font-size: 16px;
   font-weight: 700;
   line-height: 36px;
   padding-top: 30px;
@@ -876,10 +875,12 @@ main > #secondSection > div:nth-of-type(1) > a::after {
 }
 main > #secondSection > div:nth-of-type(2) {
   display: flex;
+  flex-direction: column;
+  align-items: center;
   justify-content: space-between;
 }
 main > #secondSection > div:nth-of-type(2) > div {
-  width: 356px;
+  width: 80%;
   height: 100%;
   /* -------------1------------------ */
   /* --------------2------------- */
@@ -921,6 +922,7 @@ main > #secondSection > div:nth-of-type(2) > div:nth-of-type(1)::after {
   position: absolute;
   right: 0;
   bottom: 0;
+  display: none;
 }
 main > #secondSection > div:nth-of-type(2) > div:nth-of-type(1)::before {
   content: "1";
@@ -929,6 +931,7 @@ main > #secondSection > div:nth-of-type(2) > div:nth-of-type(1)::before {
   position: absolute;
   right: -3px;
   top: 0;
+  display: none;
 }
 main > #secondSection > div:nth-of-type(2) > div:nth-of-type(2) {
   padding-top: 30px;
@@ -970,6 +973,7 @@ main > #secondSection > div:nth-of-type(2) > div:nth-of-type(2)::after {
   position: absolute;
   right: 0;
   bottom: 0;
+  display: none;
 }
 main > #secondSection > div:nth-of-type(2) > div:nth-of-type(2)::before {
   content: "2";
@@ -978,6 +982,7 @@ main > #secondSection > div:nth-of-type(2) > div:nth-of-type(2)::before {
   position: absolute;
   right: -3px;
   top: 0;
+  display: none;
 }
 main > #secondSection > div:nth-of-type(2) > div:nth-of-type(3) {
   padding-top: 30px;
