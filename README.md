@@ -46,3 +46,7 @@ This project focuses on clean layout structure, reusable components, and mobile-
 - 💻 GitHub: [parsa-farshah](https://github.com/parsa-farshah)
 - 🎥 YouTube: [@FrontEndFresh](https://www.youtube.com/@FrontEndFresh)
 - 📩 Email: parsafarashah2002@gmail.com
+
+### 🖼 Demo Overview
+<img src="/asset/img/cover.png" alt="Project Demo" width="100%">
+
