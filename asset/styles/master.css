@@ -92,11 +92,19 @@
   display: flex;
   flex-wrap: wrap;
 }
-#head-top > .row:nth-of-type(2) > div:nth-of-type(1) > .row:nth-of-type(1) > h2 {
+#head-top
+  > .row:nth-of-type(2)
+  > div:nth-of-type(1)
+  > .row:nth-of-type(1)
+  > h2 {
   font-size: 20px;
   font-family: "Medium";
 }
-#head-top > .row:nth-of-type(2) > div:nth-of-type(1) > .row:nth-of-type(1) > h1 {
+#head-top
+  > .row:nth-of-type(2)
+  > div:nth-of-type(1)
+  > .row:nth-of-type(1)
+  > h1 {
   width: 100%;
   font-size: 50px;
   text-transform: uppercase;
@@ -116,7 +124,11 @@
   align-items: center;
   margin-top: 40px;
 }
-#head-top > .row:nth-of-type(2) > div:nth-of-type(1) > .row:nth-of-type(3) > span {
+#head-top
+  > .row:nth-of-type(2)
+  > div:nth-of-type(1)
+  > .row:nth-of-type(3)
+  > span {
   font-size: 14px;
   border-radius: 30px;
   display: flex;
@@ -130,19 +142,35 @@
   transition: 0.4s ease-in-out;
   overflow: hidden;
 }
-#head-top > .row:nth-of-type(2) > div:nth-of-type(1) > .row:nth-of-type(3) > span:hover:nth-of-type(1) {
+#head-top
+  > .row:nth-of-type(2)
+  > div:nth-of-type(1)
+  > .row:nth-of-type(3)
+  > span:hover:nth-of-type(1) {
   background-color: #7453fc;
 }
-#head-top > .row:nth-of-type(2) > div:nth-of-type(1) > .row:nth-of-type(3) > span:hover:nth-of-type(2) {
+#head-top
+  > .row:nth-of-type(2)
+  > div:nth-of-type(1)
+  > .row:nth-of-type(3)
+  > span:hover:nth-of-type(2) {
   background-color: white;
   color: #7453fc;
 }
-#head-top > .row:nth-of-type(2) > div:nth-of-type(1) > .row:nth-of-type(3) > span:nth-of-type(1) {
+#head-top
+  > .row:nth-of-type(2)
+  > div:nth-of-type(1)
+  > .row:nth-of-type(3)
+  > span:nth-of-type(1) {
   color: white;
   border: 2px solid #7453fc;
   margin-right: 15px;
 }
-#head-top > .row:nth-of-type(2) > div:nth-of-type(1) > .row:nth-of-type(3) > span:nth-of-type(1)::after {
+#head-top
+  > .row:nth-of-type(2)
+  > div:nth-of-type(1)
+  > .row:nth-of-type(3)
+  > span:nth-of-type(1)::after {
   content: "";
   position: absolute;
   bottom: 0;
@@ -151,11 +179,19 @@
   height: 2px;
   width: 80%;
 }
-#head-top > .row:nth-of-type(2) > div:nth-of-type(1) > .row:nth-of-type(3) > span:nth-of-type(2) {
+#head-top
+  > .row:nth-of-type(2)
+  > div:nth-of-type(1)
+  > .row:nth-of-type(3)
+  > span:nth-of-type(2) {
   background-color: #7453fc;
   color: white;
 }
-#head-top > .row:nth-of-type(2) > div:nth-of-type(1) > .row:nth-of-type(3) > span:nth-of-type(2)::after {
+#head-top
+  > .row:nth-of-type(2)
+  > div:nth-of-type(1)
+  > .row:nth-of-type(3)
+  > span:nth-of-type(2)::after {
   content: "";
   position: absolute;
   bottom: 0;
@@ -343,19 +379,35 @@ main #firstSection > div:nth-of-type(2) > .collectionsCardBox > div {
   /* card 2 */
   /* card 3 */
 }
-main #firstSection > div:nth-of-type(2) > .collectionsCardBox > div:nth-of-type(1) > figure {
+main
+  #firstSection
+  > div:nth-of-type(2)
+  > .collectionsCardBox
+  > div:nth-of-type(1)
+  > figure {
   width: 100%;
   height: 60%;
   border-radius: 20px 20px 0 0;
 }
-main #firstSection > div:nth-of-type(2) > .collectionsCardBox > div:nth-of-type(1) > figure > img {
+main
+  #firstSection
+  > div:nth-of-type(2)
+  > .collectionsCardBox
+  > div:nth-of-type(1)
+  > figure
+  > img {
   width: 100%;
   height: 100%;
   -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   border-radius: 20px 20px 0 0;
 }
-main #firstSection > div:nth-of-type(2) > .collectionsCardBox > div:nth-of-type(1) > div {
+main
+  #firstSection
+  > div:nth-of-type(2)
+  > .collectionsCardBox
+  > div:nth-of-type(1)
+  > div {
   width: 100%;
   height: 40%;
   border: 1px solid #404245;
@@ -363,34 +415,72 @@ main #firstSection > div:nth-of-type(2) > .collectionsCardBox > div:nth-of-type(
   background-color: #282b2f;
   padding: 30px;
 }
-main #firstSection > div:nth-of-type(2) > .collectionsCardBox > div:nth-of-type(1) > div > h5 {
+main
+  #firstSection
+  > div:nth-of-type(2)
+  > .collectionsCardBox
+  > div:nth-of-type(1)
+  > div
+  > h5 {
   font-size: 20px;
   color: #fff;
   font-weight: 700;
   padding-bottom: 20px;
   margin-bottom: 20px;
 }
-main #firstSection > div:nth-of-type(2) > .collectionsCardBox > div:nth-of-type(1) > div > div:nth-of-type(1) {
+main
+  #firstSection
+  > div:nth-of-type(2)
+  > .collectionsCardBox
+  > div:nth-of-type(1)
+  > div
+  > div:nth-of-type(1) {
   display: flex;
   justify-content: space-between;
 }
-main #firstSection > div:nth-of-type(2) > .collectionsCardBox > div:nth-of-type(1) > div > div:nth-of-type(1) > span {
+main
+  #firstSection
+  > div:nth-of-type(2)
+  > .collectionsCardBox
+  > div:nth-of-type(1)
+  > div
+  > div:nth-of-type(1)
+  > span {
   color: #fff;
   font-size: 15px;
   text-transform: capitalize;
 }
-main #firstSection > div:nth-of-type(2) > .collectionsCardBox > div:nth-of-type(1) > div > div:nth-of-type(2) {
+main
+  #firstSection
+  > div:nth-of-type(2)
+  > .collectionsCardBox
+  > div:nth-of-type(1)
+  > div
+  > div:nth-of-type(2) {
   margin-top: 10px;
   display: flex;
   justify-content: space-between;
 }
-main #firstSection > div:nth-of-type(2) > .collectionsCardBox > div:nth-of-type(1) > div > div:nth-of-type(2) > span {
+main
+  #firstSection
+  > div:nth-of-type(2)
+  > .collectionsCardBox
+  > div:nth-of-type(1)
+  > div
+  > div:nth-of-type(2)
+  > span {
   color: #fff;
   font-size: 20px;
   text-transform: capitalize;
   font-weight: 700;
 }
-main #firstSection > div:nth-of-type(2) > .collectionsCardBox > div:nth-of-type(1) > div > a {
+main
+  #firstSection
+  > div:nth-of-type(2)
+  > .collectionsCardBox
+  > div:nth-of-type(1)
+  > div
+  > a {
   width: 290px;
   height: 50px;
   background-color: #7453fc;
@@ -407,11 +497,23 @@ main #firstSection > div:nth-of-type(2) > .collectionsCardBox > div:nth-of-type(
   position: relative;
   transition: all 0.4s ease;
 }
-main #firstSection > div:nth-of-type(2) > .collectionsCardBox > div:nth-of-type(1) > div > a:hover {
+main
+  #firstSection
+  > div:nth-of-type(2)
+  > .collectionsCardBox
+  > div:nth-of-type(1)
+  > div
+  > a:hover {
   background-color: white;
   color: #7453fc;
 }
-main #firstSection > div:nth-of-type(2) > .collectionsCardBox > div:nth-of-type(1) > div > a::after {
+main
+  #firstSection
+  > div:nth-of-type(2)
+  > .collectionsCardBox
+  > div:nth-of-type(1)
+  > div
+  > a::after {
   content: "";
   width: 78%;
   height: 2px;
@@ -421,19 +523,35 @@ main #firstSection > div:nth-of-type(2) > .collectionsCardBox > div:nth-of-type(
   left: 50%;
   transform: translate(-50%, 0);
 }
-main #firstSection > div:nth-of-type(2) > .collectionsCardBox > div:nth-of-type(2) > figure {
+main
+  #firstSection
+  > div:nth-of-type(2)
+  > .collectionsCardBox
+  > div:nth-of-type(2)
+  > figure {
   width: 100%;
   height: 60%;
   border-radius: 20px 20px 0 0;
 }
-main #firstSection > div:nth-of-type(2) > .collectionsCardBox > div:nth-of-type(2) > figure > img {
+main
+  #firstSection
+  > div:nth-of-type(2)
+  > .collectionsCardBox
+  > div:nth-of-type(2)
+  > figure
+  > img {
   width: 100%;
   height: 100%;
   -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   border-radius: 20px 20px 0 0;
 }
-main #firstSection > div:nth-of-type(2) > .collectionsCardBox > div:nth-of-type(2) > div {
+main
+  #firstSection
+  > div:nth-of-type(2)
+  > .collectionsCardBox
+  > div:nth-of-type(2)
+  > div {
   width: 100%;
   height: 40%;
   border: 1px solid #404245;
@@ -441,34 +559,72 @@ main #firstSection > div:nth-of-type(2) > .collectionsCardBox > div:nth-of-type(
   background-color: #282b2f;
   padding: 30px;
 }
-main #firstSection > div:nth-of-type(2) > .collectionsCardBox > div:nth-of-type(2) > div > h5 {
+main
+  #firstSection
+  > div:nth-of-type(2)
+  > .collectionsCardBox
+  > div:nth-of-type(2)
+  > div
+  > h5 {
   font-size: 20px;
   color: #fff;
   font-weight: 700;
   padding-bottom: 20px;
   margin-bottom: 20px;
 }
-main #firstSection > div:nth-of-type(2) > .collectionsCardBox > div:nth-of-type(2) > div > div:nth-of-type(1) {
+main
+  #firstSection
+  > div:nth-of-type(2)
+  > .collectionsCardBox
+  > div:nth-of-type(2)
+  > div
+  > div:nth-of-type(1) {
   display: flex;
   justify-content: space-between;
 }
-main #firstSection > div:nth-of-type(2) > .collectionsCardBox > div:nth-of-type(2) > div > div:nth-of-type(1) > span {
+main
+  #firstSection
+  > div:nth-of-type(2)
+  > .collectionsCardBox
+  > div:nth-of-type(2)
+  > div
+  > div:nth-of-type(1)
+  > span {
   color: #fff;
   font-size: 15px;
   text-transform: capitalize;
 }
-main #firstSection > div:nth-of-type(2) > .collectionsCardBox > div:nth-of-type(2) > div > div:nth-of-type(2) {
+main
+  #firstSection
+  > div:nth-of-type(2)
+  > .collectionsCardBox
+  > div:nth-of-type(2)
+  > div
+  > div:nth-of-type(2) {
   margin-top: 10px;
   display: flex;
   justify-content: space-between;
 }
-main #firstSection > div:nth-of-type(2) > .collectionsCardBox > div:nth-of-type(2) > div > div:nth-of-type(2) > span {
+main
+  #firstSection
+  > div:nth-of-type(2)
+  > .collectionsCardBox
+  > div:nth-of-type(2)
+  > div
+  > div:nth-of-type(2)
+  > span {
   color: #fff;
   font-size: 20px;
   text-transform: capitalize;
   font-weight: 700;
 }
-main #firstSection > div:nth-of-type(2) > .collectionsCardBox > div:nth-of-type(2) > div > a {
+main
+  #firstSection
+  > div:nth-of-type(2)
+  > .collectionsCardBox
+  > div:nth-of-type(2)
+  > div
+  > a {
   width: 290px;
   height: 50px;
   background-color: #7453fc;
@@ -485,11 +641,23 @@ main #firstSection > div:nth-of-type(2) > .collectionsCardBox > div:nth-of-type(
   position: relative;
   transition: all 0.4s ease;
 }
-main #firstSection > div:nth-of-type(2) > .collectionsCardBox > div:nth-of-type(2) > div > a:hover {
+main
+  #firstSection
+  > div:nth-of-type(2)
+  > .collectionsCardBox
+  > div:nth-of-type(2)
+  > div
+  > a:hover {
   background-color: white;
   color: #7453fc;
 }
-main #firstSection > div:nth-of-type(2) > .collectionsCardBox > div:nth-of-type(2) > div > a::after {
+main
+  #firstSection
+  > div:nth-of-type(2)
+  > .collectionsCardBox
+  > div:nth-of-type(2)
+  > div
+  > a::after {
   content: "";
   width: 78%;
   height: 2px;
@@ -499,19 +667,35 @@ main #firstSection > div:nth-of-type(2) > .collectionsCardBox > div:nth-of-type(
   left: 50%;
   transform: translate(-50%, 0);
 }
-main #firstSection > div:nth-of-type(2) > .collectionsCardBox > div:nth-of-type(3) > figure {
+main
+  #firstSection
+  > div:nth-of-type(2)
+  > .collectionsCardBox
+  > div:nth-of-type(3)
+  > figure {
   width: 100%;
   height: 60%;
   border-radius: 20px 20px 0 0;
 }
-main #firstSection > div:nth-of-type(2) > .collectionsCardBox > div:nth-of-type(3) > figure > img {
+main
+  #firstSection
+  > div:nth-of-type(2)
+  > .collectionsCardBox
+  > div:nth-of-type(3)
+  > figure
+  > img {
   width: 100%;
   height: 100%;
   -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   border-radius: 20px 20px 0 0;
 }
-main #firstSection > div:nth-of-type(2) > .collectionsCardBox > div:nth-of-type(3) > div {
+main
+  #firstSection
+  > div:nth-of-type(2)
+  > .collectionsCardBox
+  > div:nth-of-type(3)
+  > div {
   width: 100%;
   height: 40%;
   border: 1px solid #404245;
@@ -519,34 +703,72 @@ main #firstSection > div:nth-of-type(2) > .collectionsCardBox > div:nth-of-type(
   background-color: #282b2f;
   padding: 30px;
 }
-main #firstSection > div:nth-of-type(2) > .collectionsCardBox > div:nth-of-type(3) > div > h5 {
+main
+  #firstSection
+  > div:nth-of-type(2)
+  > .collectionsCardBox
+  > div:nth-of-type(3)
+  > div
+  > h5 {
   font-size: 20px;
   color: #fff;
   font-weight: 700;
   padding-bottom: 20px;
   margin-bottom: 20px;
 }
-main #firstSection > div:nth-of-type(2) > .collectionsCardBox > div:nth-of-type(3) > div > div:nth-of-type(1) {
+main
+  #firstSection
+  > div:nth-of-type(2)
+  > .collectionsCardBox
+  > div:nth-of-type(3)
+  > div
+  > div:nth-of-type(1) {
   display: flex;
   justify-content: space-between;
 }
-main #firstSection > div:nth-of-type(2) > .collectionsCardBox > div:nth-of-type(3) > div > div:nth-of-type(1) > span {
+main
+  #firstSection
+  > div:nth-of-type(2)
+  > .collectionsCardBox
+  > div:nth-of-type(3)
+  > div
+  > div:nth-of-type(1)
+  > span {
   color: #fff;
   font-size: 15px;
   text-transform: capitalize;
 }
-main #firstSection > div:nth-of-type(2) > .collectionsCardBox > div:nth-of-type(3) > div > div:nth-of-type(2) {
+main
+  #firstSection
+  > div:nth-of-type(2)
+  > .collectionsCardBox
+  > div:nth-of-type(3)
+  > div
+  > div:nth-of-type(2) {
   margin-top: 10px;
   display: flex;
   justify-content: space-between;
 }
-main #firstSection > div:nth-of-type(2) > .collectionsCardBox > div:nth-of-type(3) > div > div:nth-of-type(2) > span {
+main
+  #firstSection
+  > div:nth-of-type(2)
+  > .collectionsCardBox
+  > div:nth-of-type(3)
+  > div
+  > div:nth-of-type(2)
+  > span {
   color: #fff;
   font-size: 20px;
   text-transform: capitalize;
   font-weight: 700;
 }
-main #firstSection > div:nth-of-type(2) > .collectionsCardBox > div:nth-of-type(3) > div > a {
+main
+  #firstSection
+  > div:nth-of-type(2)
+  > .collectionsCardBox
+  > div:nth-of-type(3)
+  > div
+  > a {
   width: 290px;
   height: 50px;
   background-color: #7453fc;
@@ -563,11 +785,23 @@ main #firstSection > div:nth-of-type(2) > .collectionsCardBox > div:nth-of-type(
   position: relative;
   transition: all 0.4s ease;
 }
-main #firstSection > div:nth-of-type(2) > .collectionsCardBox > div:nth-of-type(3) > div > a:hover {
+main
+  #firstSection
+  > div:nth-of-type(2)
+  > .collectionsCardBox
+  > div:nth-of-type(3)
+  > div
+  > a:hover {
   background-color: white;
   color: #7453fc;
 }
-main #firstSection > div:nth-of-type(2) > .collectionsCardBox > div:nth-of-type(3) > div > a::after {
+main
+  #firstSection
+  > div:nth-of-type(2)
+  > .collectionsCardBox
+  > div:nth-of-type(3)
+  > div
+  > a::after {
   content: "";
   width: 78%;
   height: 2px;
@@ -821,7 +1055,7 @@ main #items #itemsCards > div {
   height: 390px;
   width: 570px;
   border-radius: 20px;
-  background-color: #282B2F;
+  background-color: #282b2f;
   border: 1px solid #404245;
   padding: 30px;
   display: flex;
@@ -837,7 +1071,7 @@ main #items #itemsCards > div > figure {
 main #items #itemsCards > div > figure > img {
   width: 100%;
   -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
 }
 main #items #itemsCards > div > div {
   width: 55%;
@@ -868,7 +1102,15 @@ main #items #itemsCards > div > div > section:nth-of-type(1) > div > figure {
   border-radius: 50%;
   overflow: hidden;
 }
-main #items #itemsCards > div > div > section:nth-of-type(1) > div > figure > img {
+main
+  #items
+  #itemsCards
+  > div
+  > div
+  > section:nth-of-type(1)
+  > div
+  > figure
+  > img {
   width: 100%;
 }
 main #items #itemsCards > div > div > section:nth-of-type(1) > div > div {
@@ -909,7 +1151,15 @@ main #items #itemsCards > div > div > section:nth-of-type(2) > div > div > p {
   font-size: 15px;
   font-family: "Regular";
 }
-main #items #itemsCards > div > div > section:nth-of-type(2) > div > div:nth-of-type(2) > p {
+main
+  #items
+  #itemsCards
+  > div
+  > div
+  > section:nth-of-type(2)
+  > div
+  > div:nth-of-type(2)
+  > p {
   font-size: 20px;
   font-family: "Bold";
 }
@@ -924,7 +1174,21 @@ main #items #itemsCards > div > div > section:nth-of-type(2) > a {
 main #team {
   width: 100%;
   padding: 100px 0 80px 0;
-  background-image: linear-gradient(to right top, #e9e9e9, #d9d9dd, #cac9d0, #bab9c4, #abaab8, #a09fbb, #9694be, #8a89c1, #827ed2, #7b72e2, #7664f0, #7453fc);
+  background-image: linear-gradient(
+    to right top,
+    #e9e9e9,
+    #d9d9dd,
+    #cac9d0,
+    #bab9c4,
+    #abaab8,
+    #a09fbb,
+    #9694be,
+    #8a89c1,
+    #827ed2,
+    #7b72e2,
+    #7664f0,
+    #7453fc
+  );
 }
 main #team > h2 {
   padding-top: 30px;
@@ -957,14 +1221,17 @@ main #team > div {
   margin: 0 auto;
   height: 500px;
   display: flex;
+  flex-direction: column;
+  gap: 20px;
   justify-content: space-evenly;
   align-items: center;
 }
 main #team > div > div {
-  width: 350px;
-  height: 400px;
+  width: 80%;
+  height: auto;
+  padding-block: 40px;
   -webkit-backdrop-filter: blur(50px);
-          backdrop-filter: blur(50px);
+  backdrop-filter: blur(50px);
   background-color: rgba(0, 0, 0, 0.55);
   border-radius: 20px;
   display: flex;
@@ -1121,4 +1388,4 @@ footer > div:nth-of-type(2) > p:nth-of-type(2) {
   color: #7453fc;
   font-size: 22px;
   font-weight: bold;
-}/*# sourceMappingURL=master.css.map */
+} /*# sourceMappingURL=master.css.map */
