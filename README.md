@@ -48,5 +48,5 @@ This project focuses on clean layout structure, reusable components, and mobile-
 - 📩 Email: parsafarashah2002@gmail.com
 
 ### 🖼 Demo Overview
-<img src="/asset/img/cover.png" alt="Project Demo" width="100%">
+<img src="/asset/img/copy.jpg" alt="Project Demo" width="100%">
 
